@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Reporte Semanal",
-  description: "Dashboard comercial",
+  title: "Pollo Pechugón | App Móvil & Reporte Comercial",
+  description: "La app de Pollo Pechugón y Reporte de Análisis Comercial",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -23,7 +23,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="es"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full bg-slate-100 text-slate-900 antialiased">{children}</body>
+      <body className="min-h-full bg-[#fbf9f5] text-[#1c1c1c] antialiased selection:bg-[#ffcb05] selection:text-black">{children}</body>
     </html>
   );
 }
